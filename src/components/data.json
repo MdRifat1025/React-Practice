@@ -1,0 +1,52 @@
+[
+  {
+    "id": 101,
+    "title": "System Update",
+    "content": "The server will undergo maintenance at midnight."
+  },
+  {
+    "id": 102,
+    "title": "Welcome Note",
+    "content": "Thank you for joining our community platform!"
+  },
+  {
+    "id": 103,
+    "title": "Security Alert",
+    "content": "A new login was detected from a recognized device."
+  },
+  {
+    "id": 104,
+    "title": "Feature Launch",
+    "content": "Dark mode is now available in your settings menu."
+  },
+  {
+    "id": 105,
+    "title": "Payment Success",
+    "content": "Your subscription for the month has been processed."
+  },
+  {
+    "id": 106,
+    "title": "New Message",
+    "content": "You have received a direct message from the admin."
+  },
+  {
+    "id": 107,
+    "title": "Draft Saved",
+    "content": "Your article 'Introduction to JSON' was saved to drafts."
+  },
+  {
+    "id": 108,
+    "title": "Password Change",
+    "content": "Your password was successfully updated 5 minutes ago."
+  },
+  {
+    "id": 109,
+    "title": "Holiday Hours",
+    "content": "Support will be offline during the upcoming holiday."
+  },
+  {
+    "id": 110,
+    "title": "Weekly Report",
+    "content": "Your analytics for the past 7 days are now ready."
+  }
+]

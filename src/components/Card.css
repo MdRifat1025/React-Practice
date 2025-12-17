@@ -1,0 +1,28 @@
+.Card{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contect{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
