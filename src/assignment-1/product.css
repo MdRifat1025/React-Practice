@@ -1,0 +1,21 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 6px;
+  background: #fff;
+}

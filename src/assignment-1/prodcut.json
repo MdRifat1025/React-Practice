@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 1200,
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 4500,
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "USB-C Charger",
+    "price": 1800,
+    "category": "Electronics",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Laptop Stand",
+    "price": 2200,
+    "category": "Office",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Headphones",
+    "price": 6500,
+    "category": "Audio",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Smart Watch",
+    "price": 9800,
+    "category": "Wearables",
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "name": "External Hard Drive",
+    "price": 7200,
+    "category": "Storage",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Webcam HD",
+    "price": 3100,
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Portable Speaker",
+    "price": 5400,
+    "category": "Audio",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Power Bank 20000mAh",
+    "price": 2700,
+    "category": "Electronics",
+    "inStock": false
+  }
+]
