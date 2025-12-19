@@ -1,6 +1,7 @@
 import React from "react";
 import "./product.css";
 import product from "./prodcut.json";
+import { FaBeer } from "react-icons/fa";
 
 function Product() {
     return (
