@@ -11,6 +11,7 @@ import reactLogo from './assets/react.svg'
 // import Onchange from './onchange/onchange.jsx'
 import Index from './assignment-2/index.jsx'
 import He from './assignment-2/he.jsx'
+import Form from './form/form.jsx'
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
   return (
     <>
       
-      {count === false ? <Index /> : <He />}
+      {/* {count === false ? <Index /> : <He />} */}
+      <Form />
 
 
     </> 
