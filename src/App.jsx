@@ -1,37 +1,21 @@
-
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-// import Card from "./components/Card.jsx"
-
-// import Product from "./assignment-1/product.jsx"
-// import State from "./components/state.jsx"
-// import Index from './conditional_rendering/index.jsx'
-// import Onchange from './onchange/onchange.jsx'
-import Index from './assignment-2/index.jsx'
-import He from './assignment-2/he.jsx'
-import Form from './form/form.jsx'
-
+import { useState } from 'react';
+import Parent from './state_lifting/Parent.jsx';
+import Home from './state_lifting/Home.jsx';
 
 function App() {
+  // let getData = (a) => {
+  //   console.log(a);
 
-  let [count, setCount] = useState(false)
-  
+  // };
 
-
-
-
-
+  // const data = "hello world";
   return (
     <>
-      
-      {/* {count === false ? <Index /> : <He />} */}
-      <Form />
+      {/* <Child data={data} onChildData={getData} /> */}
+      <Home />
 
-
-    </> 
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
