@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useFormik } from 'formik';
 
 
@@ -60,7 +60,7 @@ export default function Form() {
 
                 <label style={{ color: 'blue', margin: '10px' }}>Passwprd</label>
 
-                <input onChange={formik.handleChange} style={{ margin: '10px' }} type="text" value={formik.values.pass} name="password" /><br />
+                <input onChange={formik.handleChange} style={{ margin: '10px' }} type="text" value={formik.values.pass} name="pass" /><br />
 
                 <button style={{ backgroundColor: "green", color: 'white' }} type="submit">
                     Submit
