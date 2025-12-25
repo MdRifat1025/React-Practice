@@ -1,14 +1,23 @@
-import React from 'react'
-import Faq from './Faq'
+import React, { useState } from 'react'
+import style from './style.module.css'
 
-export default function Faqdata({ id, title, desc }) {
+export default function Faqdata({ title, desc }) {
+    const [show, setShow] = useState(false)
+
     return (
-        <div>
-            <h1>{title}</h1>
-            <button>+</button>
-            <p>{desc}</p>
+        <>
+            
 
+            <div className={style.card}>
+                <div className={style.header} onClick={() => setShow(!show)}>
+                    <h3>{title}</h3>
+                    <button className={style.btn}>
+                        {show ? '-' : '+'}
+                    </button>
+                </div>
 
-        </div>
+                {show && <p className={style.desc}>{desc}</p>}
+            </div>
+        </>
     )
 }

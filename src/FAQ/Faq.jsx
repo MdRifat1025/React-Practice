@@ -7,6 +7,7 @@ export default function Faq() {
 
     return (
         <div>
+            <h1 style={{ textAlign: "center" }}>FAQ</h1>
             {faqs.map((faq) => (
                 <Faqdata key={faq.id} {...faq} />
             ))}
