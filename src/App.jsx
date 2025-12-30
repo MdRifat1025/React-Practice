@@ -1,17 +1,11 @@
-import { useState } from 'react';
-import Home from './Assignment3/Home';
+import DataFetch from './useEffects/dataFetch';
 
 function App() {
-
   return (
     <>
-
-      <Home />
-
+      <DataFetch />
     </>
   );
 }
 
 export default App;
-
-
