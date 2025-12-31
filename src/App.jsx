@@ -1,9 +1,9 @@
-import DataFetch from './useEffects/dataFetch';
+import Fetch from "./assignment-4/Fetch";
 
 function App() {
   return (
     <>
-      <DataFetch />
+      <Fetch />
     </>
   );
 }
